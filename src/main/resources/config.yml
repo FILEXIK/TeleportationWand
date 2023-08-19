@@ -1,0 +1,31 @@
+config_version: 1
+teleporter_recipe:
+  shape:
+    - DGD
+    - DBD
+    - DGD
+  ingredients:
+    D: DIAMOND
+    G: GOLD_BLOCK
+    B: BLAZE_ROD
+#in miliseconds 10000 ms = 10 seconds
+cooldown_duration: 10000
+cancel_tp_when_player_moves: true
+teleporter_material: BLAZE_ROD
+#in ticks 1 tick = 0.05 s; 100 ticks = 5 seconds
+teleport_wait_time: 100
+
+#translations
+display_name: Teleporter
+teleporter_set_text: DONE
+only_by_player: This command can only be used by players!
+received_teleporter: You received the Teleporter!
+plugin_reloaded: Plugin reloaded!
+#%s - number of seconds
+wait_time_info: You must wait another %s seconds to use this item again.
+#%s - number of seconds
+teleporting_info: Teleporting... (Wait %s seconds)
+teleported: Teleported!
+teleport_canceled: The teleport was canceled by moving.
+teleportation_location_set: You have set the teleport location! Click Teleporter again to teleport there.
+

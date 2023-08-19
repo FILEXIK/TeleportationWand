@@ -1,0 +1,22 @@
+name: Teleporter
+version: '${project.version}'
+main: filexstudios.mc.teleporter.Teleporter
+api-version: 1.19
+prefix: TELEPORTER
+authors: [ FILEXIK ]
+description: Ability to teleport with an item!
+commands:
+  teleporter:
+    description: Adds the Teleporter item to the player's inventory.
+    usage: /<command> [give/reload]
+    permission: teleporter.give
+    permission-message: You do not have permission to use this command.
+    args:
+      - give:
+          type: string
+          optional: false
+          description: Optional argument
+      - reload:
+          type: string
+          optional: false
+          description: Optional argument
