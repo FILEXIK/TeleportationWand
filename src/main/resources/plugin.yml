@@ -1,7 +1,7 @@
 name: Teleporter
 version: '${project.version}'
 main: filexstudios.mc.teleporter.Teleporter
-api-version: 1.19
+api-version: 1.21
 prefix: TELEPORTER
 authors: [ FILEXIK ]
 description: Ability to teleport with an item!
